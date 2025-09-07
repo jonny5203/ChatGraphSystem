@@ -1,0 +1,6 @@
+fastapi==0.116.1
+uvicorn[standard]
+pydantic==2.11.7
+pandas==2.3.2
+scikit-learn==1.7.1
+langchain==1.0.0a3

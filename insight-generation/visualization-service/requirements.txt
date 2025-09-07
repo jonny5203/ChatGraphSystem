@@ -1,0 +1,5 @@
+fastapi==0.116.1
+uvicorn[standard]
+pydantic==2.11.7
+plotly==5.18.0
+pandas==2.3.2
