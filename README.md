@@ -40,6 +40,7 @@ The platform consists of 19 microservices organized into 6 domain boundaries, us
 - **Report Scheduler Service** (Java/Spring Boot) - Automated report delivery
 
 ## System Architecture
+```mermaid
 graph TB
     subgraph "Client Layer"
         UI[Web UI]
