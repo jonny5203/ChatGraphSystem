@@ -135,26 +135,14 @@ graph TB
     WF --> KAFKA
     RS --> KAFKA
     
-    style NLP fill:#e1f5fe
-    style SQL fill:#fff3e0
-    style VAL fill:#fff3e0
-    style FO fill:#fff3e0
-    style QR fill:#fff3e0
-    style SG fill:#fff3e0
-    style SF fill:#f3e5f5
-    style DG fill:#f3e5f5
-    style ST fill:#f3e5f5
-    style FG fill:#f3e5f5
-    style MR fill:#fff3e0
-    style MD fill:#f3e5f5
-    style SD fill:#fff3e0
-    style AE fill:#e1f5fe
-    style VIZ fill:#e1f5fe
-    style TO fill:#f3e5f5
-    style SEC fill:#fff3e0
-    style WF fill:#fff3e0
-    style RS fill:#fff3e0
+    classDef java fill:#fff3e0,stroke:#333,stroke-width:2px
+    classDef python fill:#e1f5fe,stroke:#333,stroke-width:2px
+    classDef go fill:#f3e5f5,stroke:#333,stroke-width:2px
 
+    class NLP,AE,VIZ python
+    class SQL,VAL,FO,QR,SG,MR,SD,SEC,WF,RS java
+    class SF,DG,ST,FG,MD,TO go
+```
 - **Natural Language Querying**: Convert plain English to optimized SQL
 - **Federated Query Execution**: Query multiple databases without data movement
 - **Protocol-Specific Gateways**: Optimized connectors for each data source type
