@@ -1,6 +1,6 @@
-# GenBI - Distributed Enterprise Analytics Platform
+# ChatGraphSystem - Distributed Enterprise Analytics Platform
 
-GenBI is a microservices-based business intelligence platform that enables natural language querying across distributed, heterogeneous data sources. Built with Domain-Driven Design principles, it provides federated query execution, AI-powered insights, and multi-tenant isolation with dedicated compute clusters per tenant.
+ChatGraph is a microservices-based business intelligence platform that enables natural language querying across distributed, heterogeneous data sources. Built with Domain-Driven Design principles, it provides federated query execution, AI-powered insights, and multi-tenant isolation with dedicated compute clusters per tenant.
 
 ## Architecture Overview
 
