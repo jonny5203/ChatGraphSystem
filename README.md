@@ -40,7 +40,7 @@ The platform consists of 19 microservices organized into 6 domain boundaries, us
 - **Report Scheduler Service** (Java/Spring Boot) - Automated report delivery
 
 ## System Architecture
-mermaidgraph TB
+graph TB
     subgraph "Client Layer"
         UI[Web UI]
         API[REST API]
@@ -153,7 +153,6 @@ mermaidgraph TB
     style SEC fill:#fff3e0
     style WF fill:#fff3e0
     style RS fill:#fff3e0
-markdown## Key Features
 
 - **Natural Language Querying**: Convert plain English to optimized SQL
 - **Federated Query Execution**: Query multiple databases without data movement
