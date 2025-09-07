@@ -135,9 +135,9 @@ graph TB
     WF --> KAFKA
     RS --> KAFKA
     
-    classDef java fill:#fff3e0,stroke:#333,stroke-width:2px
-    classDef python fill:#e1f5fe,stroke:#333,stroke-width:2px
-    classDef go fill:#f3e5f5,stroke:#333,stroke-width:2px
+    classDef java fill:#fff3e0,stroke:#333,stroke-width:2px,color:#000
+    classDef python fill:#e1f5fe,stroke:#333,stroke-width:2px,color:#000
+    classDef go fill:#f3e5f5,stroke:#333,stroke-width:2px,color:#000
 
     class NLP,AE,VIZ python
     class SQL,VAL,FO,QR,SG,MR,SD,SEC,WF,RS java
